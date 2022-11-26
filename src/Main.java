@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -69,5 +70,6 @@ public class Main {
         System.out.print("Rename member: ");
         int m = s.nextInt();
 
+        Random r = new Random();
     }
 }
