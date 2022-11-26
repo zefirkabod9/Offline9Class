@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        /*String name, model;
+        String name, model;
         int RAM, Storage, mainCameraResolution, secondCameraResolution;
         Scanner s = new Scanner(System.in);
 
@@ -58,18 +58,6 @@ public class Main {
             }
 
             System.out.print("\033[H\033[2J");
-        }*/
-        Scanner s = new Scanner(System.in);
-        ArrayList<Integer> numbers = new ArrayList<>();
-        System.out.print("Enter numbers: ");
-        int n = s.nextInt();
-        for (int i = 0; i < n; i++) {
-            numbers.add(i, s.nextInt());
         }
-        System.out.println(numbers);
-        System.out.print("Rename member: ");
-        int m = s.nextInt();
-
-        Random r = new Random();
     }
 }
